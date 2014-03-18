@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+background-image:url(../images/bg.png);	
+}
+
+.container {
+background:#fff;	
+margin-top:60px;
+border: 2px solid #ccc;
+padding: 0px 30px 30px 30px;
+}
+
+#lang_sel {
+float:right;
+padding-top:10px;	
+}
+
+/* nav */
+nav {
+float:right;
+font-family: 'Alegreya Sans SC', serif;
+font-size:19px;
+}
+
+nav ul {
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+nav li {
+display:inline;
+padding:8px;
+}
+
+nav a {
+text-decoration:none;	
+}
+
+nav a:hover {
+color:#da7f13;
+}
+
+#intro ul {
+	list-style-type: disc;
+	padding-left:60px;
+}
+
+/*login button*/
+.login {
+	-moz-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0) );
+	background:-moz-linear-gradient( center top, #3d94f6 5%, #1e62d0 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d94f6', endColorstr='#1e62d0');
+	background-color:#3d94f6;
+	-webkit-border-top-left-radius:13px;
+	-moz-border-radius-topleft:13px;
+	border-top-left-radius:13px;
+	-webkit-border-top-right-radius:13px;
+	-moz-border-radius-topright:13px;
+	border-top-right-radius:13px;
+	-webkit-border-bottom-right-radius:13px;
+	-moz-border-radius-bottomright:13px;
+	border-bottom-right-radius:13px;
+	-webkit-border-bottom-left-radius:13px;
+	-moz-border-radius-bottomleft:13px;
+	border-bottom-left-radius:13px;
+	text-indent:0;
+	border:1px solid #337fed;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	font-style:normal;
+	height:32px;
+	line-height:32px;
+	width:85px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #1570cd;
+}
+.login:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #1e62d0), color-stop(1, #3d94f6) );
+	background:-moz-linear-gradient( center top, #1e62d0 5%, #3d94f6 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e62d0', endColorstr='#3d94f6');
+	background-color:#1e62d0;
+	color:#fff;
+}.login:active {
+	position:relative;
+	top:1px;
+}
+
+#downloads table td a {
+font-size:17px;	
+text-decoration:none;
+color:#000;
+}
+#downloads table td a:hover {
+	color:#da7f13;
+}
+	
+	
+	
+	
